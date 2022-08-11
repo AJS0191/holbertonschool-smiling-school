@@ -164,14 +164,29 @@ body {
     background-image: url(images/pic_1.jpg);
     min-height: 1093px;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 9%;
+    margin-top: 80px;
+      }
+
+.hero2 {
+        background-image: url(images/pic_2.jpg);
+        min-height: 1093px;
+        background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         width: 100%;
         height: auto;
         padding-bottom: 9%;
         margin-top: 80px;
-      }
+}
 
+#transparent {
+    opacity: 0;
+}
 
 .smile {
     height: 30px;
@@ -436,6 +451,17 @@ div.circlepic img {
     font-family: 'holberton_school-icon';
     font-size: 40px;
     color: #FFFFFF;
+}
+
+.check {
+    font-family: 'holberton_school-icon';
+    font-size: 40px;
+    color: #82D24F;
+}
+
+#signalbrand {
+    height: 35px;
+    width: 88px;
 }
 
 .opacwhite {
