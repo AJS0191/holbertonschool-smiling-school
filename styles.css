@@ -184,6 +184,17 @@ body {
         margin-top: 80px;
 }
 
+.hero3 {
+    background-image: url(images/pic_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 9%;
+    margin-top: 80px;
+}
+
 #transparent {
     opacity: 0;
 }
